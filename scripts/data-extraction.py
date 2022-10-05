@@ -7,11 +7,11 @@
 
     decode:
     1. binary: https://codebeautify.org/binary-string-converter
-    2. base64: https://www.base64decode.org/
-    3. unicone escape: https://www.online-toolz.com/tools/text-unicode-entities-convertor.php
+    2. unicone escape: https://www.online-toolz.com/tools/text-unicode-entities-convertor.php
+    3. base64: https://www.base64decode.org/
     4. brainfuck: https://www.dcode.fr/brainfuck-language
 '''
-# TODO: create CSV&JSON dataset
+
 # lniear regression: https://www.youtube.com/watch?v=O0HQnTJhr70
 
 import requests, time, json, lxml, re
@@ -19,17 +19,11 @@ from bs4 import BeautifulSoup
 from random import randint
 import pandas as pd
 
-#TODO: try to replace HTML elements with BS4 to form proper table. Otherwise skip this part if its complicated
-# ref: https://pandas.pydata.org/docs/reference/api/pandas.read_html.html
-
-# start_date_full = datetime.date(2022, 2, 24)
-# current_date_full = datetime.datetime.now()
-
-month = 10
+month = 2
 
 russo_loses_data = []
 
-for i in range(9):
+for i in range(0, 9):
     html = requests.get(f'https://index.minfin.com.ua/en/russian-invading/casualties/month.php?month=2022-{month}')
     soup = BeautifulSoup(html.text, 'lxml')
 
@@ -77,8 +71,8 @@ for i in range(9):
         except: uav = None
         
         try:
-            сruise_missiles = int(re.search(r'Cruise missiles.*?(\d+)', results.text).group(1))
-        except: сruise_missiles = None
+            cruise_missiles = int(re.search(r'Cruise missiles.*?(\d+)', results.text).group(1))
+        except: cruise_missiles = None
 
         try:
             ships = int(re.search(r'Ships \(boats\).*?(\d+)', results.text).group(1))
@@ -109,16 +103,16 @@ for i in range(9):
             'mlrs': mlrs,           # later they combined buk,grad to single mlrs category
             'anti_air': anti_air,
             'uav': uav,
-            'сruise_missiles': сruise_missiles,
+            'cruise_missiles': cruise_missiles,
             'ships': ships,
             'cars_cisterns': cars_cisterns,
             'special_equpment': special_equpment,
             'personnel': personnel
         })
 
-        time.sleep(randint(5, 10))
-        print(f'exctracting month: {month}')
-        month += 1
+    time.sleep(randint(5, 10))
+    print(f'exctracting month: {month}')
+    month += 1
 
 print(json.dumps(russo_loses_data, indent=2, ensure_ascii=False))
     
