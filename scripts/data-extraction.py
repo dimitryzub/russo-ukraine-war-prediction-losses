@@ -12,8 +12,6 @@
     4. brainfuck: https://www.dcode.fr/brainfuck-language
 '''
 
-# lniear regression: https://www.youtube.com/watch?v=O0HQnTJhr70
-
 import requests, time, json, lxml, re
 from bs4 import BeautifulSoup
 from random import randint
