@@ -41,3 +41,5 @@ Publicly available from the [Ministry of Defense of Ukraine](https://www.mil.gov
 
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/dimitryzub/russo-ukraine-war-prediction-losses)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dimitryzub/russo-ukraine-war-prediction-losses/main)
