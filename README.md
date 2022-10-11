@@ -37,3 +37,7 @@ Publicly available from the [Ministry of Defense of Ukraine](https://www.mil.gov
 
 - Extract daily newly losses, not total per day.
 - Answer the question: "what day has the most losses and why".
+
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/dimitryzub/russo-ukraine-war-prediction-losses)
