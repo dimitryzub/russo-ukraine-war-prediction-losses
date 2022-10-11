@@ -27,7 +27,7 @@ Publicly available from the [Ministry of Defense of Ukraine](https://www.mil.gov
 
 ### Results
 
-![avarage-loses-per-group](analysis/viz/1-year-personnel-loses-prediction_plotly.png)
+![avarage-loses-per-group](analysis/viz/russian-personnel-losses-prediction-plotly.png)
 
 ![avarage-loses-per-group](analysis/viz/avarage-loses-per-group.png)
 
