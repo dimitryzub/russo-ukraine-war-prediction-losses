@@ -1,6 +1,6 @@
 # Russian Prediction Losses in Russo-Ukraine War 
 
-[On Febuary 24, 2022, Russia invaded Ukraine](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine) 😡
+[On February 24, 2022, Russia invaded Ukraine](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine) 😡
 
 [Donate to UNITED24](https://u24.gov.ua/) which was launched by the President of Ukraine Volodymyr Zelenskyy as the main venue for collecting charitable donations in support of Ukraine to stop russia illegal actions.
 ### Key Takeaways
