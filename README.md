@@ -1,7 +1,9 @@
 # Russian Prediction Losses in Russo-Ukraine War 
 
+[On Febuary 24, 2022, Russia invaded Ukraine](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine) 😡
+
 [Donate to UNITED24](https://u24.gov.ua/) which was launched by the President of Ukraine Volodymyr Zelenskyy as the main venue for collecting charitable donations in support of Ukraine to stop russia illegal actions.
-### Key Tekaways
+### Key Takeaways
 
 - By October 2023, russian personnel losses may reach 190.000+ mark.
   - 300.000+ is an upper bound.
