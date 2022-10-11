@@ -1,4 +1,4 @@
-# Russian Ukraine War
+# Russian Prediction Losses in Russo-Ukraine War 
 
 [Donate to UNITED24](https://u24.gov.ua/) which was launched by the President of Ukraine Volodymyr Zelenskyy as the main venue for collecting charitable donations in support of Ukraine to stop russia illegal actions.
 ### Key Tekaways
