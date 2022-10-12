@@ -19,7 +19,6 @@
 Publicly available from the [Ministry of Defense of Ukraine](https://www.mil.gov.ua/en/) (News tab). Not an API, parsed by myself using own script.
 ### Analysis Methods
 
-- Data cleaning.
 - Explorary data analysis.
 - Forecasting procedure using [Prophet](https://github.com/facebook/prophet).
 ### Tech Stack
