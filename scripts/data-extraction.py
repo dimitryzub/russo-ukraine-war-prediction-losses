@@ -1,17 +1,3 @@
-'''
-    encode this code:
-    1. brainfuck: https://www.dcode.fr/brainfuck-language
-    2. base64: https://www.utilities-online.info/base64
-    3. Unicode Escape: https://dencode.com/en/string/unicode-escape
-    4. binary: https://lingojam.com/BinaryEncoder&Decoder
-
-    decode:
-    1. binary: https://codebeautify.org/binary-string-converter
-    2. unicone escape: https://www.online-toolz.com/tools/text-unicode-entities-convertor.php
-    3. base64: https://www.base64decode.org/
-    4. brainfuck: https://www.dcode.fr/brainfuck-language
-'''
-
 import requests, time, json, lxml, re
 from bs4 import BeautifulSoup
 from random import randint
